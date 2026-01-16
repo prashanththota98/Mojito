@@ -24,7 +24,7 @@ const Hero = () => {
           trigger: video,
           start: "top top",
           end: "bottom top",
-          scrub: 2,
+          scrub: 1,
         },
       });
     });
@@ -35,14 +35,14 @@ const Hero = () => {
       <img
         src="/images/hero-left-leaf.png"
         alt="left leaf"
-        className="absolute left-0 top-1/4 w-24 md:w-64 z-10"
+        className="absolute left-0 top-1/4 w-24 md:w-64 z-20"
       />
 
       {/* Right Leaf */}
       <img
         src="/images/hero-right-leaf.png"
         alt="right leaf"
-        className="absolute right-0 top-1/4 w-24 md:w-64 z-10"
+        className="absolute right-0 top-1/4 w-24 md:w-64 z-20"
       />
 
       {/* Center Content */}
@@ -57,7 +57,7 @@ const Hero = () => {
           muted
           playsInline
           preload="auto"
-          className="w-[50%] inset-0"
+          className="w-[100%] inset-0 sticky top-1/2 z-0"
         ></video>
       </div>
     </section>

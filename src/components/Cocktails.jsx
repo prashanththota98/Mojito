@@ -2,7 +2,7 @@ import React from "react";
 
 const Cocktails = () => {
   return (
-    <div id="cocktails" className="text-white h-[500px] bg-black">
+    <div id="cocktails" className="text-white h-[500px] bg-black z-10">
       <div className="">
         <button
           type="button"
